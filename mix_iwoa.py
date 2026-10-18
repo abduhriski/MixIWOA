@@ -6,7 +6,7 @@ def mix_iwoa(search_space, objective_func, pop_size=15, max_iter=20, seed=42):
     Mixed-Variable Improved Whale Optimization Algorithm (MixIWOA).
     
     Komponen Utama:
-    1. Inisialisasi populasi menggunakan Peta Kaotik Logistik (u = 4.0).
+    1. Inisialisasi populasi menggunakan Logistic Chaotic Map (u = 4.0).
     2. Faktor konvergensi non-linier: a = 2 * (1 - (t / max_iter)^2).
     3. Penanganan variabel campuran:
        - Kontinu (float) & Diskrit (int): Clipping batas + pembulatan untuk int.
